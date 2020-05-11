@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-11T14:25:01.673Z" agent="5.0 (X11)" etag="OVs5B1zthY1k0ATlZqGy" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-11T16:51:01.055Z" agent="5.0 (X11)" etag="LvjGBjrpSmuMQEI99OT8" version="13.0.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="2083" dy="1988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,6 +178,32 @@
         </mxCell>
         <mxCell id="7GMpEOmyIVPwlqPCVGuD-15" value="JSGLR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="25" y="252" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Nr-4U2HefYSUrpei6iG9" name="Language components">
+    <mxGraphModel dx="942" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="VGTQuR22eE6JHcWbUIxT-0" />
+        <mxCell id="VGTQuR22eE6JHcWbUIxT-1" parent="VGTQuR22eE6JHcWbUIxT-0" />
+        <mxCell id="VGTQuR22eE6JHcWbUIxT-10" value="&lt;&lt;LanguageInstance&gt;&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="VGTQuR22eE6JHcWbUIxT-1">
+          <mxGeometry x="470" y="260" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VGTQuR22eE6JHcWbUIxT-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VGTQuR22eE6JHcWbUIxT-10">
+          <mxGeometry y="26" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VGTQuR22eE6JHcWbUIxT-13" value="+ createCompletionTask(...)&#xa;+ getInspection()&#xa;+ getCommandDefs() &#xa;+ getAutoCommandRequest()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGTQuR22eE6JHcWbUIxT-10">
+          <mxGeometry y="34" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VGTQuR22eE6JHcWbUIxT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VGTQuR22eE6JHcWbUIxT-1" source="VGTQuR22eE6JHcWbUIxT-15" target="VGTQuR22eE6JHcWbUIxT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VGTQuR22eE6JHcWbUIxT-15" value="&lt;&lt;LanguagComponent&gt;&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="VGTQuR22eE6JHcWbUIxT-1">
+          <mxGeometry x="190" y="220" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="VGTQuR22eE6JHcWbUIxT-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VGTQuR22eE6JHcWbUIxT-15">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
