@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T13:45:29.308Z" agent="5.0 (X11)" etag="gLZggTJuA9Z8TcyTqVVv" version="13.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-05-13T13:45:50.342Z" agent="5.0 (X11)" etag="uJ3TnfM6zUMd18ouPjaU" version="13.1.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="1697" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,14 +249,8 @@
         <mxCell id="QFNyQkNEad4dvhYtdvDd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="QFNyQkNEad4dvhYtdvDd-1" source="QFNyQkNEad4dvhYtdvDd-5" target="QFNyQkNEad4dvhYtdvDd-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QFNyQkNEad4dvhYtdvDd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QFNyQkNEad4dvhYtdvDd-1" source="QFNyQkNEad4dvhYtdvDd-5" target="QFNyQkNEad4dvhYtdvDd-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-5" value="Spoofax3 Language&lt;br&gt;Definition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
           <mxGeometry x="390" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QFNyQkNEad4dvhYtdvDd-22" value="Spoofax3 Core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
-          <mxGeometry x="390" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-8" value="Platform Components" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
           <mxGeometry x="390" y="130" width="120" height="60" as="geometry" />
