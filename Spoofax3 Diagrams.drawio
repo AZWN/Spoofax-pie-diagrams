@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T13:52:49.203Z" agent="5.0 (X11)" etag="rM-M7SBErc_SivbHW9br" version="13.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-05-13T13:54:15.744Z" agent="5.0 (X11)" etag="6ttIUnWiAZVmzTp2wF_l" version="13.1.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="1697" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
           <mxGeometry x="310" y="420" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-13" value="Provides" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
-          <mxGeometry x="260" y="230" width="60" height="20" as="geometry" />
+          <mxGeometry x="250" y="230" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-15" value="Language Components" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
           <mxGeometry x="600" y="265" width="120" height="60" as="geometry" />
@@ -257,7 +257,7 @@
         <mxCell id="QFNyQkNEad4dvhYtdvDd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="QFNyQkNEad4dvhYtdvDd-1" source="QFNyQkNEad4dvhYtdvDd-18" target="QFNyQkNEad4dvhYtdvDd-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QFNyQkNEad4dvhYtdvDd-18" value="Spoofax3 Language" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
+        <mxCell id="QFNyQkNEad4dvhYtdvDd-18" value="Spoofax3 Project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
           <mxGeometry x="600" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-20" value="Uses" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
