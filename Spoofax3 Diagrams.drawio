@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-14T12:09:00.308Z" agent="5.0 (X11)" etag="ojc7Qvh8fQqn5NsM_mLg" version="13.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-05-14T12:56:40.508Z" agent="5.0 (X11)" etag="knq3jlTW0A8LOOIY-aGk" version="13.1.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="1697" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -275,16 +275,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-15" value="Language Components" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="QFNyQkNEad4dvhYtdvDd-1" vertex="1">
-          <mxGeometry x="420" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="QFNyQkNEad4dvhYtdvDd-1" source="QFNyQkNEad4dvhYtdvDd-18" target="QFNyQkNEad4dvhYtdvDd-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-18" value="Spoofax3 Project" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="QFNyQkNEad4dvhYtdvDd-1" vertex="1">
-          <mxGeometry x="420" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-20" value="Uses" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="QFNyQkNEad4dvhYtdvDd-1" vertex="1">
-          <mxGeometry x="480" y="500" width="40" height="20" as="geometry" />
+          <mxGeometry x="470" y="490" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="QFNyQkNEad4dvhYtdvDd-1" source="QFNyQkNEad4dvhYtdvDd-24" target="QFNyQkNEad4dvhYtdvDd-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -298,7 +298,7 @@
           <mxGeometry x="250" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-28" value="Generates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="QFNyQkNEad4dvhYtdvDd-1" vertex="1">
-          <mxGeometry x="380" y="350" width="70" height="20" as="geometry" />
+          <mxGeometry x="370" y="350" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rIWOls8xhEprA9096uQJ-2" value="Provides&lt;br&gt;LanguageInstance" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
           <mxGeometry x="280" y="390" width="110" height="30" as="geometry" />
@@ -307,7 +307,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rIWOls8xhEprA9096uQJ-3" value="Language Component Base" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="QFNyQkNEad4dvhYtdvDd-1">
-          <mxGeometry x="420" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QFNyQkNEad4dvhYtdvDd-11" value="Integrates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="QFNyQkNEad4dvhYtdvDd-1" vertex="1">
           <mxGeometry x="120" y="430" width="70" height="20" as="geometry" />
