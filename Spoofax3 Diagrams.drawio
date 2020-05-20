@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-19T12:35:20.979Z" agent="5.0 (X11)" etag="A2P5PA_7arKNrLoNLr76" version="13.1.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-05-20T17:51:37.076Z" agent="5.0 (X11)" etag="v186EhsukkoY9axBOpsq" version="13.1.2" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="1697" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -729,7 +729,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0wLh1Z78Lmbl13L_lIbF" name="Analysis Input">
-    <mxGraphModel dx="870" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1350" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="32XT2XJP-yMvT9UIQnX3-0" />
         <mxCell id="32XT2XJP-yMvT9UIQnX3-1" parent="32XT2XJP-yMvT9UIQnX3-0" />
@@ -775,7 +775,7 @@
             <mxRectangle x="180" y="340" width="80" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="32XT2XJP-yMvT9UIQnX3-10" value="+ taskGenerator: Function&lt;ResourceKey,&#xa;    Task&lt;Messages&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="32XT2XJP-yMvT9UIQnX3-9">
+        <mxCell id="32XT2XJP-yMvT9UIQnX3-10" value="+ singleFileFunc: Function&lt;ResourceKey,&#xa;    Task&lt;Messages&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="32XT2XJP-yMvT9UIQnX3-9">
           <mxGeometry y="26" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="32XT2XJP-yMvT9UIQnX3-3" value="MultiFile" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="32XT2XJP-yMvT9UIQnX3-1">
@@ -783,7 +783,7 @@
             <mxRectangle x="180" y="340" width="80" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="32XT2XJP-yMvT9UIQnX3-4" value="+ taskGenerator: Function&lt;MultiFileInput,&#xa;    Task&lt;KeyedMessages&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="32XT2XJP-yMvT9UIQnX3-3">
+        <mxCell id="32XT2XJP-yMvT9UIQnX3-4" value="+ multiFileFunc: Function&lt;MultiFileInput,&#xa;    Task&lt;KeyedMessages&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="32XT2XJP-yMvT9UIQnX3-3">
           <mxGeometry y="26" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="32XT2XJP-yMvT9UIQnX3-12" value="MultiFileInput" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="32XT2XJP-yMvT9UIQnX3-1">
