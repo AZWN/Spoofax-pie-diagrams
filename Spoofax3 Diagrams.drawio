@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T16:00:23.921Z" agent="5.0 (X11)" etag="wrMslBqiHDNPDJRVsfat" version="13.8.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-11-10T18:27:07.807Z" agent="5.0 (X11)" etag="oZY8ri8t9vw_AjE83AkS" version="13.8.3" type="github" pages="16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="2177" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1472,17 +1472,100 @@
       <root>
         <mxCell id="-PK9K8ocw2LhhbYAh4Mu-0" />
         <mxCell id="-PK9K8ocw2LhhbYAh4Mu-1" parent="-PK9K8ocw2LhhbYAh4Mu-0" />
-        <mxCell id="-PK9K8ocw2LhhbYAh4Mu-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LanguageInstance&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ createCheckTask(project: ResourcePath): Task&amp;lt;KeyedMessages" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="-PK9K8ocw2LhhbYAh4Mu-1">
-          <mxGeometry x="370" y="270" width="380" height="70" as="geometry" />
+        <mxCell id="-PK9K8ocw2LhhbYAh4Mu-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LanguageInstance&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ getFileExtensions() : Set&amp;lt;String&amp;gt;&lt;br&gt;+ createTokenizeTask(resource: ResourceKey): Task&amp;lt;Tokens&amp;gt;&lt;br&gt;+ createStyleTask(resource: ResourceKey): Task&amp;lt;Styling&amp;gt;&lt;br&gt;+ createCheckTask(project: ResourcePath): Task&amp;lt;KeyedMessages" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="-PK9K8ocw2LhhbYAh4Mu-1">
+          <mxGeometry x="370" y="270" width="380" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="pS057eFMQPxBZiVK0Jky" name="Spoofax 3 Task Hierarchy">
-    <mxGraphModel dx="1350" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="pS057eFMQPxBZiVK0Jky" name="MLA Task Hierarchy">
+    <mxGraphModel dx="2200" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="m_tZgiQji84_2XJWMPb4-0" />
         <mxCell id="m_tZgiQji84_2XJWMPb4-1" parent="m_tZgiQji84_2XJWMPb4-0" />
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-0" target="ODjQXEZzthE_vPRbNlZB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-0" value="&lt;b&gt;MLAAnalyze&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : AnalyzeInput, &lt;br&gt;O : KeyedMessages" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="730" y="280" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-1" value="&lt;b&gt;BuildSpec&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Set&amp;lt;LanguageId&amp;gt;, &lt;br&gt;O : Spec" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="40" y="200" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-2" value="&lt;b&gt;CreateGlobalScope&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Supplier&amp;lt;Spec&amp;gt;, &lt;br&gt;O : SolverResult" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="40" y="360" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-3" target="ODjQXEZzthE_vPRbNlZB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-3" target="ODjQXEZzthE_vPRbNlZB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPFAlOvREN-md5jhnQqc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-3" target="iPFAlOvREN-md5jhnQqc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPFAlOvREN-md5jhnQqc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-3" target="iPFAlOvREN-md5jhnQqc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-3" value="&lt;b&gt;PartialSolveFile&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : SolveFileInput, &lt;br&gt;O : Spec" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="270" y="200" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-4" target="ODjQXEZzthE_vPRbNlZB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;jumpStyle=arc;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-4" target="ODjQXEZzthE_vPRbNlZB-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="380" />
+              <mxPoint x="240" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-4" value="&lt;b&gt;PartialSolveProject&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : SolveProjectInput, &lt;br&gt;O : Spec" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="270" y="360" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-10" target="ODjQXEZzthE_vPRbNlZB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-10" target="ODjQXEZzthE_vPRbNlZB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-10" target="ODjQXEZzthE_vPRbNlZB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-10" value="&lt;b&gt;SolveProject&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : SolveProjectInput, &lt;br&gt;O : Spec" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="500" y="280" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-13" value="&lt;b&gt;ReadConfig&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Supplier&amp;lt;Spec&amp;gt;, &lt;br&gt;O : SolverResult" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="40" y="520" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-14" target="ODjQXEZzthE_vPRbNlZB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-14" value="&lt;b&gt;BuildConfig&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Supplier&amp;lt;Spec&amp;gt;, &lt;br&gt;O : SolverResult" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="270" y="520" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iPFAlOvREN-md5jhnQqc-0" value="&lt;b&gt;Parse&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Supplier&amp;lt;String&amp;gt;, &lt;br&gt;O : ParseOutput" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="-190" y="40" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iPFAlOvREN-md5jhnQqc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="iPFAlOvREN-md5jhnQqc-1" target="iPFAlOvREN-md5jhnQqc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPFAlOvREN-md5jhnQqc-1" value="&lt;b&gt;PreTransform&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Supplier&amp;lt;String&amp;gt;, &lt;br&gt;O : ParseOutput" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="270" y="40" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iPFAlOvREN-md5jhnQqc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="iPFAlOvREN-md5jhnQqc-2" target="iPFAlOvREN-md5jhnQqc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPFAlOvREN-md5jhnQqc-2" value="&lt;b&gt;PostTransform&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Supplier&amp;lt;String&amp;gt;, &lt;br&gt;O : ParseOutput" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="500" y="40" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iPFAlOvREN-md5jhnQqc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" edge="1" parent="m_tZgiQji84_2XJWMPb4-1" source="iPFAlOvREN-md5jhnQqc-6" target="iPFAlOvREN-md5jhnQqc-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPFAlOvREN-md5jhnQqc-6" value="&lt;b&gt;Index&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Supplier&amp;lt;String&amp;gt;, &lt;br&gt;O : ParseOutput" style="html=1;" vertex="1" parent="m_tZgiQji84_2XJWMPb4-1">
+          <mxGeometry x="40" y="40" width="150" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
