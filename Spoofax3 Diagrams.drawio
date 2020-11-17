@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T17:45:04.755Z" agent="5.0 (X11)" etag="MQjSvo4PCKxXDVKC19ec" version="13.9.9" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2020-11-17T17:58:56.439Z" agent="5.0 (X11)" etag="uTifYZdN41P-5pt2_jPx" version="13.9.9" type="github" pages="19">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="2177" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1474,17 +1474,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9Y3J2U4GSCuT3HytwICI" name="LanguageInstance">
-    <mxGraphModel dx="1350" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="540" dy="1422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-PK9K8ocw2LhhbYAh4Mu-0" />
         <mxCell id="-PK9K8ocw2LhhbYAh4Mu-1" parent="-PK9K8ocw2LhhbYAh4Mu-0" />
-        <mxCell id="-PK9K8ocw2LhhbYAh4Mu-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LanguageInstance&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ getFileExtensions() : Set&amp;lt;String&amp;gt;&lt;br&gt;+ createTokenizeTask(resource: ResourceKey) : Task&amp;lt;Tokens&amp;gt;&lt;br&gt;+ createStyleTask(resource: ResourceKey) : Task&amp;lt;Styling&amp;gt;&lt;br&gt;+ createCheckTask(project: ResourcePath) : Task&amp;lt;KeyedMessages&amp;gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="-PK9K8ocw2LhhbYAh4Mu-1" vertex="1">
+        <mxCell id="-PK9K8ocw2LhhbYAh4Mu-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LanguageInstance&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ getFileExtensions() : Set&amp;lt;String&amp;gt; &lt;br&gt;&amp;nbsp;+ createTokenizeTask(resource: ResourceKey) : Task&amp;lt;Tokens&amp;gt;&lt;br&gt;&amp;nbsp;+ createStyleTask(resource: ResourceKey) : Task&amp;lt;Styling&amp;gt;&lt;br&gt;&amp;nbsp;+ createCheckTask(project: ResourcePath) : Task&amp;lt;KeyedMessages&amp;gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="-PK9K8ocw2LhhbYAh4Mu-1" vertex="1">
           <mxGeometry x="340" y="-990" width="380" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="E2tyYNOrnzv2dSsZmqya-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LanguageComponent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;+ getPie() : Pie&lt;/div&gt;&lt;div&gt;+ getLanguageInstance() : LanguageInstance&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="-PK9K8ocw2LhhbYAh4Mu-1" vertex="1">
+        <mxCell id="E2tyYNOrnzv2dSsZmqya-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LanguageComponent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ getPie() : Pie&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ getLanguageInstance() : LanguageInstance&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="-PK9K8ocw2LhhbYAh4Mu-1" vertex="1">
           <mxGeometry x="20" y="-975" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PZF_fg5wUKVbJgaBOc3x-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PlatformComponent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;+ getPie() : Pie&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="-PK9K8ocw2LhhbYAh4Mu-1">
+        <mxCell id="PZF_fg5wUKVbJgaBOc3x-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PlatformComponent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ getPie() : Pie&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="-PK9K8ocw2LhhbYAh4Mu-1">
           <mxGeometry x="20" y="-1080" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PZF_fg5wUKVbJgaBOc3x-3" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="-PK9K8ocw2LhhbYAh4Mu-1" source="-PK9K8ocw2LhhbYAh4Mu-2" target="E2tyYNOrnzv2dSsZmqya-0">
