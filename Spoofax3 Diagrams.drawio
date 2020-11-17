@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T16:28:33.024Z" agent="5.0 (X11)" etag="pxs0FXj0b95lsDl5TYfo" version="13.9.9" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2020-11-17T17:45:04.755Z" agent="5.0 (X11)" etag="MQjSvo4PCKxXDVKC19ec" version="13.9.9" type="github" pages="19">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="2177" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1692,13 +1692,13 @@
         <mxCell id="_EeMK1e1CxM4yabJytmC-6" value="+ rules: RuleSet" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_EeMK1e1CxM4yabJytmC-5" vertex="1">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_EeMK1e1CxM4yabJytmC-7" value="+ edgeLabels: Set&lt;Term&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_EeMK1e1CxM4yabJytmC-5" vertex="1">
+        <mxCell id="_EeMK1e1CxM4yabJytmC-7" value="+ edgeLabels: Set&lt;ITerm&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_EeMK1e1CxM4yabJytmC-5" vertex="1">
           <mxGeometry y="52" width="380" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_EeMK1e1CxM4yabJytmC-8" value="+ relationLabels: Set&lt;Term&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_EeMK1e1CxM4yabJytmC-5" vertex="1">
+        <mxCell id="_EeMK1e1CxM4yabJytmC-8" value="+ relationLabels: Set&lt;ITerm&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_EeMK1e1CxM4yabJytmC-5" vertex="1">
           <mxGeometry y="78" width="380" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_EeMK1e1CxM4yabJytmC-9" value="+ scopeExtensions: MultiMap&lt;String, Tuple2&lt;Integer, Term&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_EeMK1e1CxM4yabJytmC-5" vertex="1">
+        <mxCell id="_EeMK1e1CxM4yabJytmC-9" value="+ scopeExtensions: MultiMap&lt;String, Tuple2&lt;Integer, ITerm&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_EeMK1e1CxM4yabJytmC-5" vertex="1">
           <mxGeometry y="104" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_EeMK1e1CxM4yabJytmC-11" value="State" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="_EeMK1e1CxM4yabJytmC-1" vertex="1">
