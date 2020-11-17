@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T16:19:23.307Z" agent="5.0 (X11)" etag="ruKr4y7YXFlP3_WjJ0wd" version="13.9.9" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2020-11-17T16:28:33.024Z" agent="5.0 (X11)" etag="pxs0FXj0b95lsDl5TYfo" version="13.9.9" type="github" pages="19">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="2177" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1516,7 +1516,7 @@
         <mxCell id="ODjQXEZzthE_vPRbNlZB-1" value="&lt;b&gt;BuildSpec&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Set&amp;lt;LanguageId&amp;gt;, &lt;br&gt;O : Spec" style="html=1;" parent="m_tZgiQji84_2XJWMPb4-1" vertex="1">
           <mxGeometry x="200" y="130" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ODjQXEZzthE_vPRbNlZB-2" value="&lt;b&gt;CreateGlobalScope&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : Supplier&amp;lt;Spec&amp;gt;, &lt;br&gt;O : SolverResult" style="html=1;" parent="m_tZgiQji84_2XJWMPb4-1" vertex="1">
+        <mxCell id="ODjQXEZzthE_vPRbNlZB-2" value="&lt;b&gt;CreateGlobalScope&lt;/b&gt;&lt;br&gt;« bind »&lt;br&gt;I : None, &lt;br&gt;O : SolverResult" style="html=1;" parent="m_tZgiQji84_2XJWMPb4-1" vertex="1">
           <mxGeometry x="200" y="250" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ODjQXEZzthE_vPRbNlZB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=halfCircle;endFill=0;" parent="m_tZgiQji84_2XJWMPb4-1" source="ODjQXEZzthE_vPRbNlZB-3" target="ODjQXEZzthE_vPRbNlZB-2" edge="1">
