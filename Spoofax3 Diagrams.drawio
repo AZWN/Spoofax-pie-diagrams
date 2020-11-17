@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-14T19:52:27.069Z" agent="5.0 (X11)" etag="6GBcDSA9n7fn06oM7Ykw" version="13.9.7" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2020-11-17T14:13:24.392Z" agent="5.0 (X11)" etag="nTeksCSBIbgNZiD3TO50" version="13.9.9" type="github" pages="19">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="2177" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1335,8 +1335,14 @@
         <mxCell id="AZQ6i7tZ2XDYQiK-DHrL-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Pie&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- taskDefs: TaskDefs&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ newSession(): Session&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="AZQ6i7tZ2XDYQiK-DHrL-1" vertex="1">
           <mxGeometry x="10" y="120" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AZQ6i7tZ2XDYQiK-DHrL-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TaskDef&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getId() : String&lt;br&gt;+ createTask(I: input) : Task&amp;lt;O&amp;gt;&lt;br&gt;+ exec(context: ExecContext, input: I) : O&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="AZQ6i7tZ2XDYQiK-DHrL-1" vertex="1">
-          <mxGeometry x="350" y="120" width="230" height="90" as="geometry" />
+        <mxCell id="j0A_aGcBapKXiDS71JCT-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="AZQ6i7tZ2XDYQiK-DHrL-1" source="AZQ6i7tZ2XDYQiK-DHrL-10" target="v2DuvceQV-E-YTNeFFlo-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j0A_aGcBapKXiDS71JCT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="AZQ6i7tZ2XDYQiK-DHrL-1" source="AZQ6i7tZ2XDYQiK-DHrL-10" target="v2DuvceQV-E-YTNeFFlo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQ6i7tZ2XDYQiK-DHrL-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TaskDef&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getId() : String&lt;br&gt;+ createTask(I: input) : Task&amp;lt;O&amp;gt;&lt;br&gt;+ exec(context: ExecContext, input: I) : O&lt;br&gt;+ createFunction(): Function&amp;lt;I, O&amp;gt;&lt;br&gt;+ createSupplier(input: I) : Supplier&amp;lt;O&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="AZQ6i7tZ2XDYQiK-DHrL-1" vertex="1">
+          <mxGeometry x="350" y="105" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="AZQ6i7tZ2XDYQiK-DHrL-11" value="&lt;b&gt;Task&lt;/b&gt;" style="html=1;" parent="AZQ6i7tZ2XDYQiK-DHrL-1" vertex="1">
           <mxGeometry x="367" y="275" width="110" height="50" as="geometry" />
