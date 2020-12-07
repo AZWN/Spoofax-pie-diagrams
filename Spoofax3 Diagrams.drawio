@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T19:03:40.592Z" agent="5.0 (X11)" etag="w9f-6I644eGJuWiZS8b1" version="13.10.8" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2020-12-07T19:04:31.839Z" agent="5.0 (X11)" etag="7x3ii86WIapj_fzKawr1" version="13.10.8" type="github" pages="22">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="2177" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1972,7 +1972,7 @@
             <mxPoint x="560" y="528" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ADLuYa-PwI05sCtbt7hC-94" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;langB:SpecFragment&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;delayedModules = [a]&lt;br&gt;modules = [d]&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;" parent="ADLuYa-PwI05sCtbt7hC-1" vertex="1">
+        <mxCell id="ADLuYa-PwI05sCtbt7hC-94" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;langB:SpecFragment&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;delayedModules = [b]&lt;br&gt;modules = [d]&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;" parent="ADLuYa-PwI05sCtbt7hC-1" vertex="1">
           <mxGeometry x="561" y="481.75" width="169" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ADLuYa-PwI05sCtbt7hC-95" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;d:Module&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;" parent="ADLuYa-PwI05sCtbt7hC-1" vertex="1">
