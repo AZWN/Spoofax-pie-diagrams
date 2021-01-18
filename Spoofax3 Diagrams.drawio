@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T15:15:22.449Z" agent="5.0 (X11)" etag="iQ7TKa6QfDDLVUnhYp8Y" version="14.2.4" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2021-01-18T20:15:02.922Z" agent="5.0 (X11)" etag="Qv7QyvWR9BlW69ZfGtza" version="14.2.4" type="github" pages="25">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="2177" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2524,11 +2524,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q0PPsaIF_dtLsEg3iYnF-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#ffffff;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="sHyyLfV8HErDjSXtHeHs-1">
-          <mxGeometry x="95" y="319" width="55" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="Q0PPsaIF_dtLsEg3iYnF-13" value="&lt;span style=&quot;background-color: transparent&quot;&gt;$$s_G$$&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontColor=#000000;" vertex="1" parent="sHyyLfV8HErDjSXtHeHs-1">
-          <mxGeometry x="107.5" y="336.5" width="30" height="20" as="geometry" />
+        <mxCell id="Q0PPsaIF_dtLsEg3iYnF-12" value="&lt;span style=&quot;background-color: transparent&quot;&gt;\(s_G\)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#ffffff;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="sHyyLfV8HErDjSXtHeHs-1">
+          <mxGeometry x="100" y="330" width="39" height="39" as="geometry" />
         </mxCell>
         <mxCell id="HAHXteFTTvAlEOMGdI_A-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=18;fontColor=#000000;" edge="1" parent="sHyyLfV8HErDjSXtHeHs-1" source="HAHXteFTTvAlEOMGdI_A-0" target="HAHXteFTTvAlEOMGdI_A-2">
           <mxGeometry relative="1" as="geometry" />
