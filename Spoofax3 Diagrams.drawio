@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T15:10:19.773Z" agent="5.0 (X11)" etag="FD56rlW6T2VMlnijS5zG" version="14.2.4" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2021-01-18T15:15:22.449Z" agent="5.0 (X11)" etag="iQ7TKa6QfDDLVUnhYp8Y" version="14.2.4" type="github" pages="25">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Project dependencies">
     <mxGraphModel dx="2177" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2274,7 +2274,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tgNH97oChhXD04qq8Lgz" name="Process Picture">
-    <mxGraphModel dx="931" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1125" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="s3ZkwXHl89XcZpKCsOgP-0" />
         <mxCell id="s3ZkwXHl89XcZpKCsOgP-1" parent="s3ZkwXHl89XcZpKCsOgP-0" />
@@ -2296,14 +2296,14 @@
         <mxCell id="s3ZkwXHl89XcZpKCsOgP-5" value="$$\mathcal{S}_i$$" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="s3ZkwXHl89XcZpKCsOgP-1">
           <mxGeometry x="180" y="640" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="s3ZkwXHl89XcZpKCsOgP-7" value="Spoofax 2 Compile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="s3ZkwXHl89XcZpKCsOgP-1">
-          <mxGeometry x="120" y="570" width="120" height="20" as="geometry" />
+        <mxCell id="s3ZkwXHl89XcZpKCsOgP-7" value="Spoofax 2 &lt;br&gt;Compilation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="s3ZkwXHl89XcZpKCsOgP-1">
+          <mxGeometry x="110" y="570" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s3ZkwXHl89XcZpKCsOgP-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="s3ZkwXHl89XcZpKCsOgP-1">
           <mxGeometry x="260" y="620" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s3ZkwXHl89XcZpKCsOgP-9" value="Spoofax 3 Compile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="s3ZkwXHl89XcZpKCsOgP-1">
-          <mxGeometry x="260" y="570" width="120" height="20" as="geometry" />
+        <mxCell id="s3ZkwXHl89XcZpKCsOgP-9" value="Spoofax 3&lt;br&gt; Compilation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="s3ZkwXHl89XcZpKCsOgP-1">
+          <mxGeometry x="269" y="570" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s3ZkwXHl89XcZpKCsOgP-10" value="Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="s3ZkwXHl89XcZpKCsOgP-1">
           <mxGeometry x="60" y="640" width="40" height="20" as="geometry" />
